@@ -120,13 +120,13 @@ ssh -L 8888:localhost:8888 <external-ip-of-masternode>
 
 ## Usage
 
-- This is a short
+- This is a short Demo how to use those single commands
 
 <img src="https://github.com/atakancetinkaya/k8s-jupyter-tensorflow/blob/main/screenshots_for_usage/step_1.png" alt="SS-1">
 
-<img src="https://github.com/atakancetinkaya/simple-pycake-calculator/blob/main/screenshots_for_usage/step_2.png" alt="SS-2">
+<img src="https://github.com/atakancetinkaya/k8s-jupyter-tensorflow/blob/main/screenshots_for_usage/step_2.png" alt="SS-2">
 
-<img src="https://github.com/atakancetinkaya/simple-pycake-calculator/blob/main/screenshots_for_usage/step_3.png" alt="SS-3">
+<img src="https://github.com/atakancetinkaya/k8s-jupyter-tensorflow/blob/main/screenshots_for_usage/step_3.png" alt="SS-3">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
