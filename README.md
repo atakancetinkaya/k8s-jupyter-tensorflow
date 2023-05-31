@@ -96,6 +96,18 @@ kubectl logs pod/tensorflow-jupyter-7c8685d949-j6jtt -n demo
 kubectl port-forward pod/tensorflow-jupyter-7c8685d949-j6jtt 8888:8888 -n demo
 ```
 
+1.3.1) If you prefer a more straightforward approach, you can use the "pkill" command to terminate the "kubectl port-forward" process directly:
+
+```sh
+pkill -f "kubectl port-forward"
+```
+
+1.3.2) But if you have multiple instances of kubectl port-forward running, you can use the killall command to terminate all instances at once
+
+```sh
+killall "kubectl port-forward"
+```
+
 ---
 
 1.4) After executing step "1.2)" copy and paste the following URL with the token into the URL bar:
@@ -149,3 +161,4 @@ On this space you will find a list of resources which can be helpful.
 - [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+`````
